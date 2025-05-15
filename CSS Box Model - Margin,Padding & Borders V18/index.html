@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Boxmodel</title>
+    <style>
+*{
+    margin: o;
+    padding: 0;
+}
+
+       .prime{
+        background-color: aqua;
+       }
+
+       .prime1{
+         color: yellow;
+         padding: 10px;
+         margin: 5px;
+         border: 10px solid blue;
+         height: 200px;
+         box-sizing: border-box;
+       }
+
+       .prime2{
+         color: brown;
+         padding: 10px;
+         margin: 5px;
+         border: 10px solid black;
+         height: 200px;
+         box-sizing: border-box;      /* margin collapse */
+       }
+    </style>
+</head>
+<body>
+    <div class="prime prime1">
+         I am Prime
+    </div>
+
+    <div class="prime prime2">
+        I am RC
+    </div>
+
+</body>
+</html>
